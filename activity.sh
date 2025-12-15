@@ -40,9 +40,9 @@ cd ~/streak
 echo "Input your username you are currently logged in as: "
 read user
 
-echo "git add README.md" > '/home/$user/Streakerkeeper/uploader.sh'
-echo "git commit -m $randon" >> '/home/$user/Streakerkeeper/uploader.sh'
-echo 'git push README.md' >> '/home/$user/Streakerkeeper/uploader.sh'
+echo "git add README.md" > "/home/$user/Streakerkeeper/uploader.sh"
+echo "git commit -m $randon" >> "/home/$user/Streakerkeeper/uploader.sh"
+echo 'git push README.md' >> "/home/$user/Streakerkeeper/uploader.sh"
 
 
 cd ~/Streakerkeeper
