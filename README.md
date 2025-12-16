@@ -1,10 +1,18 @@
 # activity-filler
-A simple bash script that lets crontab launch another script uploading a commit every 2 hours to newly created "streak" repository giving you an activity on YOUR github :)
 
-Why use this?:
+A simple Bash script that allows crontab to run another script which automatically creates commits on a schedule (default: every 2 hours).
+This results in regular GitHub activity on a dedicated “streak” repository under your account.
+
+Why use this?
 -
-Some people dont really have the time/energy to publish a file EVERY single day, which isnt that bad, but when you dont really have the time to publish it more than once a week, that might be a problem in the future, such as finding a IT focused job as A LOT of companies look at the activity on your profile, if you are in this group of people I was talking about, this is EXACTLY why to use this                                                                                  
-[ or you just want a pretty green activity chart :) ]
+Not everyone has the time or energy to publish or update a repository every single day — and that’s completely normal.
+However, when you only commit once every few days (or once a week), your GitHub activity graph may not accurately reflect your overall consistency or interest in development. Since GitHub profiles are often reviewed in technical contexts, visible activity can sometimes matter.
+This script is intended for people who:
+Want a simple way to maintain consistent GitHub activity
+Are experimenting with scheduled Git + cron automation
+Prefer having a continuous activity streak on their profile
+
+Or simply want a clean, green activity chart :)
 
 ⭐ If you find this useful, please star the repo to help others discover it!
 -
