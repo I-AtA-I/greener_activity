@@ -7,13 +7,14 @@ Some people dont really have the time/energy to publish a file EVERY single day,
 [ or you just want a pretty green activity chart :) ]
 
 ⭐ If you find this useful, please star the repo to help others discover it!
-
+-
 
 ⚠️ This project is maintained by me only.  
 Feel free to clone or fork it for personal use, but I’m not accepting contributions.
 
 
 STEPS:
+-
 1) Download this repo
 2) Go into the activity-filler directory
 3) run "activity.sh"
