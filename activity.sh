@@ -52,6 +52,4 @@ echo 'git push' >> "/home/$user/Streakerkeeper/uploader.sh"
 
 
 cd ~/Streakerkeeper
-./crontab.sh
-cd /home/$user/Streakerkeeper
 ./uploader
