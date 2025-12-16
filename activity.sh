@@ -24,7 +24,7 @@ mkdir -p Streakerkeeper
 cd Streakerkeeper
 
 # cron job every 6 hours
-( crontab -l 2>/dev/null; echo "0 */6 * * * /home/$user/Streakerkeeper/uploader.sh" ) | crontab -
+( crontab -l 2>/dev/null; echo "0 */2 * * * /home/$user/Streakerkeeper/uploader.sh" ) | crontab -
 
 # create uploader.sh
 cat > uploader.sh << 'EOF'
