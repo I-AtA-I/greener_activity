@@ -9,7 +9,7 @@ cd ~
 mkdir -p streak
 cd streak
 git init
-gh repo create streak
+gh repo create streak --public --source=. --remote=origin --push
 echo "Input the 'streak' URL from your profile: "
 read URL
 git remote add origin $URL
