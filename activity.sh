@@ -31,7 +31,7 @@ cat > uploader.sh << 'EOF'
 #!/bin/bash
 randon=$(($RANDOM + $RANDOM * $RANDOM))
 cd ~/streak
-echo $randon >> README.md
+echo $randon > README.md
 git add README.md
 git commit -m "$randon"
 git push
